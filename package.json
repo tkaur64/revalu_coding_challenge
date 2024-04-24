@@ -2,7 +2,7 @@
   "name": "revalu-coding-challenge",
   "version": "0.1.0",
   "private": true,
-  "homepage":http://tkaur64.github.io/revalu_coding_challenge,
+  "homepage":"http://tkaur64.github.io/revalu_coding_challenge",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
