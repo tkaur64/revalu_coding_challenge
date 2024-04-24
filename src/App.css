@@ -1,0 +1,47 @@
+/* 
+Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+Spacing (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/* Resetting Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  /* overflow: hidden; */
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  position: relative;
+}
+
+.transparent {
+  opacity: 0.085;
+}
+
+.main-section {
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+  padding: 2.4rem;
+  background-color: #f5f5f5;
+  height: calc(100vh - 4.8rem);
+  column-gap: 2rem;
+}
+
+.collection-section--collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.6rem;
+}
